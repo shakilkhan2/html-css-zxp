@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IXP: ZeptoApps and Programming Hero.</title>
+  </head>
+  <body>
+    <ol>
+      <li>Audio</li>
+      <li>Canvas</li>
+      <li>content editable</li>
+      <li>Input Types</li>
+      <li>Keygen Element</li>
+      <li>Meter Element</li>
+      <li>Output Element</li>
+      <li>Progress Element</li>
+      <li>SVG Element</li>
+      <li>Video Element</li>
+    </ol>
+    <audio src="/media/n322.mp3">here</audio>
+    <audio controls>
+        <source src="/media/n322.mp3" type="audio/mpeg">
+        <source src="/media/n322.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+      </audio>
+
+      <!-- canvas -->
+      <div>
+        <canvas style="background-color: blueviolet;" id="myCanvas" width="400" height="300"></canvas>
+  
+        <script>
+          const canvas = document.getElementById('myCanvas');
+          const context = canvas.getContext('2d');
+          
+          let x = 0;
+          
+          function animate() {
+            context.clearRect(0, 0, canvas.width, canvas.height);
+            context.fillRect(x, 50, 50, 50);
+            x += 2;
+            requestAnimationFrame(animate);
+          }
+          
+          animate();
+        </script>
+      </div>
+
+      <!-- video -->
+      <div>
+        <video controls>
+          <source src="./media/151771.mp4" type="video/mp4">
+          <source src="./media/151771.webm" type="video/webm">
+          <source src="./media/151771.ogv" type="video/ogg">
+          Your browser does not support the video element.
+        </video>
+      </div>
+      
+  </body>
+</html>
