@@ -91,9 +91,26 @@ hr {
 .btn{
     text-align: center;
 }
-.donate_plan{
+.donate_plans{
 background-color: #EDF5F6;
-width: 250px;
-height: 250px;
-padding: 150px 30px;
+width: 330px;
+height: 330px;
+font-family: "Roboto", sans-serif;
+margin: 50px 0;
+margin-left: 20px;
+border-radius: 5px;
+}
+.donate_plan{
+  padding-left: 25px;
+  padding-top: 60px;
+}
+.donate_plan h2{
+  margin: 20px 0;
+}
+.donate_plan p{
+  color: grey;
+}
+#donate{
+  display: flex;
+justify-content: center;
 }
