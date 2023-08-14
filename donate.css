@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap");
 
 header {
   width: 100%;
@@ -12,42 +12,88 @@ header {
       no-repeat; /* Image */
 }
 .heading {
-color: #fff;
-text-align: center;
-font-family: 'Roboto', sans-serif;
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
 }
-.heading h1{
-    font-size: 65px;
-    padding-top: 150px;
+.heading h1 {
+  font-size: 65px;
+  padding-top: 150px;
 }
-.heading p{
-    font-size: 18px;
+.heading p {
+  font-size: 18px;
 }
-.btn_donate{
-    background-color: #FF5959;
-    padding: 16px 20px;
-    color: #fff;
-    font-weight: 700;
-    font-size: large;
-    border: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    cursor: pointer;
+.btn_donate {
+  background-color: #ff5959;
+  padding: 16px 20px;
+  color: #fff;
+  font-weight: 700;
+  font-size: large;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
 }
-.btn_donate:hover{
-    border: 1px solid #fff;
+.btn_donate:hover {
+  border: 1px solid #fff;
 }
-.donate_now{
+.donate_now {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin-top: 100px;
+}
+.donate_now h1 {
+  font-size: 55px;
+}
+.donate_now p {
+  font-size: 18px;
+  color: gray;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+.amount {
+  background-color: #eeecec;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  color: gray;
+  width: 130px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.amount:hover {
+  background-color: #ffeeee;
+  color: #ff5959;
+  border: 2px solid #ff5959;
+}
+.amount_options {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.custom_amount {
+  margin-top: 80px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+hr {
+  margin: 10px 350px;
+
+}
+.btn{
     text-align: center;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 150px;
 }
-.donate_now h1{
-    font-size: 55px;
-}
-.donate_now p{
-    font-size: 18px;
-    color: gray;
-    margin-top: 20px;
-    margin-bottom: 35px;
+.donate_plan{
+background-color: #EDF5F6;
+width: 250px;
+height: 250px;
+padding: 150px 30px;
 }
