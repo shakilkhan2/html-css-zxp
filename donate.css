@@ -114,3 +114,9 @@ border-radius: 5px;
   display: flex;
 justify-content: center;
 }
+.donation{
+  display: flex;
+}
+.donation img{
+  width: 50%;
+}
